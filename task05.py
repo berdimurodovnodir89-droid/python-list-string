@@ -1,3 +1,4 @@
-text = ['Python', 'suniy intelekt', 'web-dizayn']
-result = '_'.join(text)
-print(result)
+text = 'Salom | qalesiz | yaxshi otdimi bugun '
+result = text.split('|')
+for word in result:
+    print(word.strip())
